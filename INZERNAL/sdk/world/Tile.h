@@ -69,7 +69,7 @@ GTClass Tile{
 #pragma pack(pop)
 
 //extremely important because we have raw std::vector in tilemap for tiles.
-static_assert(sizeof(Tile) == 144, "wrong tile size!");
+static_assert(sizeof(Tile) == 160, "wrong tile size!");
 constexpr auto tilelen = sizeof(Tile);
 
 #pragma pack(push, 1)
